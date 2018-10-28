@@ -47,6 +47,6 @@ end
 def add_s(array)
   array.each_with_index.collect do |element, index|
     "#{element}s"
-    index[1].sub("feets", "feet")
+    index[1] = "feets"
   end
 end
