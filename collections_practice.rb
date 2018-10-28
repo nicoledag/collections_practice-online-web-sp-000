@@ -47,7 +47,6 @@ end
 def add_s(array)
   array.each_with_index.collect do |element, index|
     "#{element}s"
-      array.gsub(index[1], "feet")
 
   end
 end
