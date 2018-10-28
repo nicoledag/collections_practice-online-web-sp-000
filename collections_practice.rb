@@ -49,6 +49,5 @@ def add_s(array)
     "#{element}s"
     array.delete_at(1)
     arr.insert(1, 'feet') 
-
   end
 end
