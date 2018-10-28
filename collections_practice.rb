@@ -47,7 +47,7 @@ end
 def add_s(array)
   array.each_with_index.collect do |element, index|
     "#{element}s"
-    index[1] = "feet"
+    array.index[1] = "feet"
 
   end
 end
