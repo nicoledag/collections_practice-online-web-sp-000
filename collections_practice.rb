@@ -47,7 +47,7 @@ end
 def add_s(array)
   array.each_with_index.collect do |element, index|
     "#{element}s"
-    array.delete_at(1)
-    array.insert(1, 'feet') 
+    index.delete_at(1)
+    index.insert(1, 'feet') 
   end
 end
