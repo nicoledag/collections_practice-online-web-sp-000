@@ -46,7 +46,11 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |element, index|
-    "#{element}s"
-    array.index[1] = "feet"
+  if array.index[1]
+     return element
+
+   else
+     return
+     "#{element}s"
   end
 end
