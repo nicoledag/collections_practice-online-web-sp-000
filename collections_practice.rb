@@ -46,7 +46,7 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |element, index|
-    "#{element}s" 
+    "#{element}s"
     plural = index.gsub(array[2], "feet")
   end
 end
